@@ -1,0 +1,8 @@
+fastapi
+pylint
+uvicorn
+black
+pytest-cov
+click
+requests
+imdbpy
