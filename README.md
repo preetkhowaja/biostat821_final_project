@@ -1,3 +1,9 @@
-# Final Project
+# Movie/Show Recommendation from IMDb
+### Preet Khowaja and Himangshu Raj Bhantana
 
-The complete, reproducible working repository for the BioStat 821 Final Project.
+A FastAPI-oriented web service that provides the following functionalities:
+
+- Keyword-based movie/show search
+- Genre search for movies/shows in database
+- Recommendation system for movies/shows
+
