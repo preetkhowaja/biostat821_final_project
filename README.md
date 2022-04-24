@@ -1,4 +1,4 @@
-[![Python 3.8](https://github.com/preetkhowaja/biostat821_final_project/workflows/makefile.yml/badge.svg)](https://github.com/preetkhowaja/biostat821_final_project/workflows/makefile.yml)
+[![Python 3.8](https://github.com/preetkhowaja/biostat821_final_project/actions/workflows/makefile.yml/badge.svg)](https://github.com/preetkhowaja/biostat821_final_project/actions/workflows/makefile.yml)
 
 # Movie/Show Recommendation from IMDb
 
