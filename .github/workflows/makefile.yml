@@ -1,23 +1,17 @@
-install:
-	pip install --upgrade pip &&\
-		python -m pip install -r requirements.txt
-
-test:
-	python -m pytest -vv test_main.py
-
-format:
-	black *.py
-
-run:
-	python main.py
-
-run-uvicorn:
-	uvicorn main:app --reload
-
-killweb:
-	sudo killall uvicorn
-
-lint:
-	pylint --disable=R,C main.py
-
-all: install lint test
+name: Python 3.8
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8.12
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8.12
+    - name: Install dependencies
+      run: |
+        make install
+    - name: Test
+      run: |
+        make test
