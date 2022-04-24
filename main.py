@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 import math
-from imdb import IMDb
+from imdb import Cinemagoer
 
 app = FastAPI()
 
@@ -13,7 +13,7 @@ async def root():
 
 @app.get("/movie/string1")
 async def movie(string1: str):
-    ia = IMDb()
+    ia = Cinemagoer()
     name = string1
     emp_list = []
     search = ia.search_movie(name)
@@ -24,13 +24,15 @@ async def movie(string1: str):
 
 @app.get("/genre/string2")
 async def genre(string2: str):
-    ia = IMDb()
+    ia = Cinemagoer()
     info = ia.search_movie(string2)
     ID = info[0].movieID
     movie = ia.get_movie(ID)
     for genre in movie["genres"]:
         return genre
 
+
+# @app.get("/recommendation/movie")
 
 if __name__ == "__main__":
     uvicorn.run(app, port=8080, host="0.0.0.0")
