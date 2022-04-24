@@ -1,4 +1,4 @@
-![example workflow](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
+![example workflow](https://github.com/preetkhowaja/biostat821_final_project/actions/workflows/<WORKFLOW_FILE>/badge.svg)
 
 # Movie/Show Recommendation from IMDb
 
