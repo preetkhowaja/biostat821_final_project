@@ -14,7 +14,7 @@ def test_root():
         " Sad, Angry, Anticipating, Horror, Content, Motivated, or Bollywood"
     ]
 def test2():
-    response = client.get("/movie/string1?string1=lion king")
+    response = client.get("/movie/string1?string1=Harry")
     assert response.status_code == 200
     assert response.json() == [
         "Harry",
