@@ -1,4 +1,5 @@
 from main import root
+from main import movie
 from fastapi.testclient import TestClient
 from main import app
 
