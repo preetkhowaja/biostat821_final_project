@@ -10,7 +10,6 @@ def test_root():
     assert response.json() == {"message": "Hello folks!"}
 
 def test2():
-    response = client.get("/movie/Harry")
+    response = client.get("/movie/lion king")
     assert response.status_code == 404
-    assert response.json() == {'Harry', 'Harry', 'Harry', "Harry Potter and the Sorcerer's Stone", 'Bosch', 'Harry Potter and the Goblet of Fire', 'Harry Potter and the Deathly Hallows: Part 2', 'The Ipcress File', 'Barry', 'Harry Wild', 'Marry Me', 'Harry Potter and the Prisoner of Azkaban', 'Harry Potter and the Chamber of Secrets', 'Harry Potter and the Order of the Phoenix', 'The Ultimatum: Marry or Move On', 'Harry Potter and the Half-Blood Prince', 'Harry Potter and the Deathly Hallows: Part 1', 'Dirty Harry', 'When Harry Met Sally...', 'Harrow'}
-
+    assert response.json() == {'The Lion King', 'Lion King', 'Lion King', 'Untitled Lion King Prequel', 'Lion Kingdom', 'Lion King - Free Healthcare', 'Lion King - Behind the Scenes', 'Lion King: Adventure at Pride Rock', 'The Lion King', 'The Scorpion King', 'The Lion King', "The Lion King II: Simba's Pride", 'The Lion King', 'The Lion King 3: Hakuna Matata', 'The Lion Guard Drama King', 'Simba: The King Lion', 'The Lion King 1½', 'Jason King', 'The Making of the Lion King', 'The Lion King Read-Along'}
