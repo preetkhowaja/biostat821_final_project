@@ -11,7 +11,7 @@ async def root():
     return {"message": "Hello folks!"}
 
 
-@app.get("/movie/lion king")
+@app.get("/movie/string1")
 async def movie(string1: str):
     ia = IMDb()
     name = string1
