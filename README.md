@@ -23,13 +23,13 @@ To run the project, follow these steps:
 
 ## How it Works: Input the keyword in the fields and get the output: 
 
-## Movie:
+## For Movie:
 ![image](https://user-images.githubusercontent.com/89568663/165391294-7b40026a-ecb5-4875-ac0f-6d204f1ad591.png)
 
-## Genre: 
+## For Genre: 
 ![image](https://user-images.githubusercontent.com/89568663/165391517-e328406e-0209-49df-baea-6ad4133f8b5a.png)
 
-## Recommendation:
+## For Recommendation:
 ![image](https://user-images.githubusercontent.com/89568663/165391629-f5321687-f6c6-44f8-b94d-984da3a20681.png)
 
 
