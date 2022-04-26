@@ -14,7 +14,7 @@ app = FastAPI()
 async def root():
     return {
         "Hello folks! In order to use the recommendation engine, type one of the following:"
-        " Sad, Angr, Anticipating, Horror, Content, Motivated, or Bollywood"
+        " Sad, Angry, Anticipating, Horror, Content, Motivated, or Bollywood"
     }
 
 
@@ -78,7 +78,7 @@ async def recommendation(emotion: str):
 
     # Extract movie titles from the data using regex
     title = soup.find("a", attrs={"href": re.compile(r"\/title\/")})
-    
+
     a = title.text.strip()
     return a
 
