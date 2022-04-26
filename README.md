@@ -14,9 +14,9 @@ To run the project, follow these steps:
 
 ### 2. Run the main.py file locally using ```python3 main.py```
 
-### 3. Navigate to http://localhost:8080/. You should see a hellow message as follows:
+### 3. Navigate to http://localhost:8080/. You should see a hello message as follows:
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/preetkhowaja/biostat821_final_project/blob/main/images/Screen%20Shot%202022-04-26%20at%203.31.01%20PM.png "Logo Title Text 1")
 
 
 
