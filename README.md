@@ -21,13 +21,15 @@ To run the project, follow these steps:
 ### 4. In order to access all functionalities, navigate to http://localhost:8080/docs. You will see the following page:
 ![alt text](https://github.com/preetkhowaja/biostat821_final_project/blob/main/images/Screen%20Shot%202022-04-26%20at%203.34.45%20PM.png "")
 
-Movie:
+## How it Works: Input the keyword in the fields and get the output: 
+
+## Movie:
 ![image](https://user-images.githubusercontent.com/89568663/165391294-7b40026a-ecb5-4875-ac0f-6d204f1ad591.png)
 
-Genre: 
+## Genre: 
 ![image](https://user-images.githubusercontent.com/89568663/165391517-e328406e-0209-49df-baea-6ad4133f8b5a.png)
 
-Recommendation:
+## Recommendation:
 ![image](https://user-images.githubusercontent.com/89568663/165391629-f5321687-f6c6-44f8-b94d-984da3a20681.png)
 
 
