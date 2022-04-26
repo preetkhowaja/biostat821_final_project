@@ -18,7 +18,8 @@ To run the project, follow these steps:
 
 ![alt text](https://github.com/preetkhowaja/biostat821_final_project/blob/main/images/Screen%20Shot%202022-04-26%20at%203.31.01%20PM.png "Logo Title Text 1")
 
-
+### 4. In order to access all functionalities, navigate to http://localhost:8080/docs. You will see the following page:
+![alt text](https://github.com/preetkhowaja/biostat821_final_project/blob/main/images/Screen%20Shot%202022-04-26%20at%203.34.45%20PM.png "")
 
 ## Contributors
 | Name | Reference |
