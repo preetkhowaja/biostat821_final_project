@@ -6,3 +6,6 @@ pytest-cov
 click
 requests
 imdbpy
+bs4
+requests
+re
