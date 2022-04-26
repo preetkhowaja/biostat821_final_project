@@ -41,6 +41,4 @@ def test2():
 def test3():
     response = client.get("/genre/string2?string2=lion king")
     assert response.status_code == 200
-    assert response.json() == [
-        'Animation'
-    ]
+    assert response.json() == 'Animation'
